@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://52young.tech/"/>
-  <updated>2017-07-09T08:18:39.024Z</updated>
+  <updated>2017-07-10T01:42:08.664Z</updated>
   <id>http://52young.tech/</id>
   
   <author>
@@ -16,20 +16,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://52young.tech/2017/07/10/linkList/"/>
-    <id>http://52young.tech/2017/07/10/linkList/</id>
-    <published>2017-07-10T01:44:19.487Z</published>
-    <updated>2017-07-09T08:18:39.024Z</updated>
+    <title>Hello World</title>
+    <link href="http://52young.tech/2017/07/10/hello-world/"/>
+    <id>http://52young.tech/2017/07/10/hello-world/</id>
+    <published>2017-07-10T01:42:08.664Z</published>
+    <updated>2017-07-10T01:42:08.664Z</updated>
     
-    <content type="html"><![CDATA[<hr>
-<p>title: 常见数据结构与算法专题篇之单向链表
-date: 2017-07-09 15:43:04
-categories: &quot;java&quot;
-tags:
-数据结构 算法</p>
-<hr>
-<hr>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2>Quick Start</h2>
+<h3>Create a new post</h3>
+<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure></p>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3>Run server</h3>
+<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3>Generate static files</h3>
+<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure></p>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3>Deploy to remote sites</h3>
+<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>常见数据结构与算法专题篇之单向链表</title>
+    <link href="http://52young.tech/2017/07/09/linkList/"/>
+    <id>http://52young.tech/2017/07/09/linkList/</id>
+    <published>2017-07-09T07:43:04.000Z</published>
+    <updated>2017-07-10T13:01:27.191Z</updated>
+    
+    <content type="html"><![CDATA[<p>科研狗开始转向码农的首要就是要打好基础，这样才能写好代码，先来一个链表压压惊。
+&lt; ! -- more -- &gt;</p>
 <p>因为不是CS科班，一个科研狗偏偏要来码代码，以前没有系统学习过数据结构和算法的知识，后期实践中越来越觉得基础的重要，所以近期开始来刷一波儿基础的数据结构和算法的知识。以下内容是我整理总结的，如果有错误，欢迎<a href="https://github.com/Youngbek" target="_blank" rel="external">指出</a></p>
 <blockquote>
 <p><strong>链表</strong></p>
@@ -142,50 +168,16 @@ Node 类中需要完成的操作就是添加Node 和 输出数据的方法。这
     
     <summary type="html">
     
-      &lt;hr&gt;
-&lt;p&gt;title: 常见数据结构与算法专题篇之单向链表
-date: 2017-07-09 15:43:04
-categories: &amp;quot;java&amp;quot;
-tags:
-数据结构 算法&lt;/p&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;p&gt;因为不是CS科班，一个科研狗偏偏要来码代码
+      &lt;p&gt;科研狗开始转向码农的首要就是要打好基础，这样才能写好代码，先来一个链表压压惊。
+&amp;lt; ! -- more -- &amp;gt;&lt;/p&gt;
+&lt;p&gt;因为不是CS科班，一个科研狗偏偏要来码代码，以前没有系统学习过数据结构和算法的知识，后期实践中越来越觉得基础的重要，所以近期开始来刷一
     
     </summary>
     
+      <category term="java" scheme="http://52young.tech/categories/java/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://52young.tech/2017/07/10/hello-world/"/>
-    <id>http://52young.tech/2017/07/10/hello-world/</id>
-    <published>2017-07-10T01:42:08.664Z</published>
-    <updated>2017-07-10T01:42:08.664Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2>Quick Start</h2>
-<h3>Create a new post</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure></p>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3>Run server</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3>Generate static files</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure></p>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3>Deploy to remote sites</h3>
-<p><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
+      <category term="数据结构 算法" scheme="http://52young.tech/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
