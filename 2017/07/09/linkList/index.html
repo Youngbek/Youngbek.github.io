@@ -38,7 +38,7 @@
 
 
 
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="/myfavicon.png">
 
 
 
@@ -77,12 +77,14 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: undefined
+        search: true
     }
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
 
 
 
@@ -91,6 +93,16 @@
 
 
 
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?d396efdc1e2f3894ef920e1e4d015b6b";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 
 
 </head>
@@ -108,9 +120,16 @@
         </hgroup>
 
         
-        <p class="header-subtitle">Young</p>
+        <p class="header-subtitle">庾信平生最萧瑟，暮年诗赋动江关</p>
         
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -166,6 +185,8 @@
                         
                             <li><a href="/archives/">所有文章</a></li>
                         
+                            <li><a href="/tags/随笔">随笔</a></li>
+                        
                             <li><a href="/tags/">标签云</a></li>
                         
                             <li><a href="/about/">关于我</a></li>
@@ -180,6 +201,12 @@
                                 <a class="fa GitHub" href="#" title="GitHub"></a>
                             
                                 <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" href="https://www.zhihu.com/people/yang-liu-2-76-98/activities" title="知乎"></a>
+                            
+                                <a class="fa 简书" href="http://www.jianshu.com/u/75756af18208" title="简书"></a>
+                            
+                                <a class="fa LinkedIn" href="https://www.linkedin.com/in/%E6%9F%B3-%E6%9D%A8-29b381135/" title="LinkedIn"></a>
                             
                         </ul>
                     </nav>
@@ -234,7 +261,7 @@
               <h1 class="header-author"><a href="/" title="回到主页">Young</a></h1>
             </hgroup>
             
-            <p class="header-subtitle">Young</p>
+            <p class="header-subtitle">庾信平生最萧瑟，暮年诗赋动江关</p>
             
             <nav class="header-menu">
                 <ul>
@@ -242,6 +269,8 @@
                     <li><a href="/">主页</a></li>
                 
                     <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/随笔">随笔</a></li>
                 
                     <li><a href="/tags/">标签云</a></li>
                 
@@ -258,6 +287,12 @@
                                 <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
                             
                                 <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa 知乎" target="_blank" href="https://www.zhihu.com/people/yang-liu-2-76-98/activities" title="知乎"></a>
+                            
+                                <a class="fa 简书" target="_blank" href="http://www.jianshu.com/u/75756af18208" title="简书"></a>
+                            
+                                <a class="fa LinkedIn" target="_blank" href="https://www.linkedin.com/in/%E6%9F%B3-%E6%9D%A8-29b381135/" title="LinkedIn"></a>
                             
                         </ul>
             </nav>
