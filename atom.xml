@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://52young.tech/"/>
-  <updated>2017-07-11T01:51:41.882Z</updated>
+  <updated>2017-08-04T06:49:50.975Z</updated>
   <id>http://52young.tech/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://52young.tech/2017/07/09/linkList/"/>
     <id>http://52young.tech/2017/07/09/linkList/</id>
     <published>2017-07-09T07:43:04.000Z</published>
-    <updated>2017-07-11T01:51:41.882Z</updated>
+    <updated>2017-08-04T06:49:50.975Z</updated>
     
-    <content type="html"><![CDATA[<p>科研狗开始转向码农的首要就是要打好基础，这样才能写好代码，先来一个链表压压惊。
-+&lt; ! -- more -- &gt;</p>
+    <content type="html"><![CDATA[<p>科研狗开始转向码农的首要就是要打好基础，这样才能写好代码，先来一个链表压压惊。</p>
+<p>&lt; ! -- more -- &gt;</p>
 <p>因为不是CS科班，一个科研狗偏偏要来码代码，以前没有系统学习过数据结构和算法的知识，后期实践中越来越觉得基础的重要，所以近期开始来刷一波儿基础的数据结构和算法的知识。以下内容是我整理总结的，如果有错误，欢迎<a href="https://github.com/Youngbek" target="_blank" rel="external">指出</a></p>
 <blockquote>
 <p><strong>链表</strong></p>
@@ -136,9 +136,9 @@ Node 类中需要完成的操作就是添加Node 和 输出数据的方法。这
     
     <summary type="html">
     
-      &lt;p&gt;科研狗开始转向码农的首要就是要打好基础，这样才能写好代码，先来一个链表压压惊。
-+&amp;lt; ! -- more -- &amp;gt;&lt;/p&gt;
-&lt;p&gt;因为不是CS科班，一个科研狗偏偏要来码代码，以前没有系统学习过数据结构和算法的知识，后期实践中越来越觉得基础的重要，所以近期开始来刷
+      &lt;p&gt;科研狗开始转向码农的首要就是要打好基础，这样才能写好代码，先来一个链表压压惊。&lt;/p&gt;
+&lt;p&gt;&amp;lt; ! -- more -- &amp;gt;&lt;/p&gt;
+&lt;p&gt;因为不是CS科班，一个科研狗偏偏要来码代码，以前没有系统学习过数据结构和算法的知识，后期实践中越来越觉得基础的重要，所以
     
     </summary>
     
